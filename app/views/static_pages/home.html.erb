@@ -1,2 +1,11 @@
-<h1>Sample app</h1>
-<p>This is the home page for the <a href="http://www.railstutorial.org/">Ruby on rails tutorial</a> sample application.</p>
+<div class="center jumbotron">
+  <h1>Bienvenido</h1>
+  <h2>Inicio de aplicación.</h2>
+  <p><a href="http://www.railstutorial.org/">Tutorial de Ruby on Rails</a></p>
+
+  <%= link_to "Regístrate", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo"), 'http://rubyonrails.org/' %>
+
+<%#= link_to image_tag("kitten.jpg", alt: "gato"), 'http://rubyonrails.org/' %>
