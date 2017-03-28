@@ -1,5 +1,5 @@
-Hola, <%= @user.name %>.
+Hi <%= @user.name %>,
 
-Bienvenido a la aplicación. Haz click en el vínculo para activar tu cuenta:
+Welcome to the Sample App! Click on the link below to activate your account:
 
 <%= edit_account_activation_url(@user.activation_token, email: @user.email) %>
